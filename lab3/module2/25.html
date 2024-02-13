@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        if (-1 || 0) alert( 'first' ); // the first will execute because -1 truthy
+        if (-1 && 0) alert( 'second' );
+        if (null || -1 && 1) alert( 'third' ); // the third will execite because -1 && 1 -> 1 or null -> 1 truthy
+    </script>
+</body>
+</html>
