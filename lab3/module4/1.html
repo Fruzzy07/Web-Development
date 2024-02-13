@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let user = {
+            name : 'John',
+            surname : 'Smith',
+        };
+        user.name = 'Pete';
+        for(key in user){
+            alert(key);
+            alert(user[key]);
+        }
+        delete user.name;
+    </script>
+</body>
+</html>
