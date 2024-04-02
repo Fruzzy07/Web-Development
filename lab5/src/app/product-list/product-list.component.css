@@ -1,0 +1,81 @@
+.title_name{
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.show_product {
+  display: none;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
+
+.img-container img{
+  height: auto;
+  width: auto;
+  margin-left: 800px;
+  max-width: 100px;
+  max-height: 90px;
+  display: inline;
+  cursor: pointer;
+  display: inline;
+}
+.img-container{
+  position: relative;
+  top: -200px;
+  left: -300px;
+  margin-bottom: -160px;
+}
+.product-rating{
+  font-style: bold;
+}
+.btm{
+  display: inline-block;
+}
+.like-button, .delete-button {
+  display: inline-block;
+  padding: 5px 10px;
+  border: none;
+}
+
+.delete-button {
+  margin-left: 15px;
+  position: relative;
+  top: -20px;
+}
+.like-button{
+  position: relative;
+  margin-left: 22px;
+  top: 6px;
+}
+p{
+  margin-top: 2px;
+}
+
+/* .photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width:20px;
+  }
+
+  /* Style for each product in the gallery */
+  /* .product {
+    width: 30%;
+    margin: 10px;
+    position: relative;
+  } */
+
+  /* Style for each photo in the product */
+  /* .product img {
+    width: 100%;
+    height: auto;
+  } */
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

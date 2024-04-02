@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
+// @ts-ignore
 import { RouterOutlet } from '@angular/router';
 
+// @ts-ignore
 @Component({
   selector: 'app-root',
   standalone: true,
