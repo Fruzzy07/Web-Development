@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+#todo-list {
+    display: flex;
+    margin: 20px auto;
+    padding: 20px;
+    margin-left: 400px;
+}
+.todo-item {
+    margin-bottom: 1px;
+}
+.done {
+    text-decoration: line-through;
+}
+
+#todo-title{
+    padding: 10px;
+    width: auto;
+    background-color: black;
+}
+
+#todo-title h2{
+    color: grey;
+    margin-left: 60px
+}
+h1{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+#todo-list button{
+    background-color: #0962bd;
+    color: white;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+#todo-input{
+    width: 500px;
+    border: 1px solid #dad5d5;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 30px;
+}
+.ul{
+    width: 500px;
+    display: flex;
+    margin: 20px auto;
+    padding: 20px;
+    margin-left: 430px;
+}
+
+p button{
+    margin-left: 450px;
+    padding: 3px;
+    border: 1px solid #757575;
+    background-color: #ffffff;
+    border-radius: 3px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2630/2630772.png); /* Replace 'https://example.com/delete_icon.png' with your image link */
+    background-repeat: no-repeat;
+    background-size: contain; /* Adjust this property to fit your image size */
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+p input{
+    margin-right:20px;
+}
+
+p{
+    width: 500px;
+    padding: 7px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
